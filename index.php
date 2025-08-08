@@ -1,5 +1,6 @@
 <?php
 // Vulnerable code: SQL Injection
+//tes komentar
 $conn = new mysqli("localhost", "root", "", "mydb");
 
 if (isset($_GET['user'])) {
